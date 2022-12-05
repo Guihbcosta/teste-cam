@@ -1,0 +1,36 @@
+
+{
+    "input_group_parameters":[],
+    "template_input_params": [
+        {
+                "name": "resource_group",
+                "description": "Resource Group da máquina",
+                "type": "string",
+                "required": true,
+                "secured": false,
+                "label": "Resource Group",
+                "hidden": false,
+                "immutable": false
+        },
+        {
+                "name": "nome_db",
+                "description": "Nome do CosmoDB",
+                "type": "string",
+                "required": true,
+                "secured": false,
+                "label": "Size",
+                "hidden": false,
+                "immutable": false
+        },
+        {
+                "name": "location",
+                "description": "Localização do banco de Dados",
+                "type": "string",
+                "required": true,
+                "secured": false,
+                "label": "Size",
+                "hidden": false,
+                "immutable": false
+        }
+	]
+}
